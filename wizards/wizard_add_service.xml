@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_form_wizard_add_service" model="ir.ui.view">
+        <field name="name">view_form_wizard_add_service</field>
+        <field name="model">wizard.add.service</field>
+        <field name="arch" type="xml">
+            <form string="Agregar Servicio">
+                <div>
+                </div>
+                <group>
+                    <field name="exemple_field" />
+                    <field name="name_employee" />"
+                </group>
+                <footer>
+                    <button string="Agregar Servicio" name="action_add_service" type="object" class="btn-primary"/>
+                    <button string="Cancelar" class="btn-secondary" special="cancel"/>
+                </footer>
+            </form>
+         </field>
+    </record>
+
+    <record id="view_action_wizard_add_service" model="ir.actions.act_window">
+        <field name="name">view_action_wizard_add_service</field>
+        <field name="res_model">wizard.add.service</field>
+        <field name="view_mode">form</field>
+        <field name="view_id" ref="view_form_wizard_add_service"/>
+        <field name="target">new</field>
+    </record>
+
+</odoo>
