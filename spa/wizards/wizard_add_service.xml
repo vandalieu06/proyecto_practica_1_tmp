@@ -25,5 +25,11 @@
         <field name="view_id" ref="view_form_wizard_add_service"/>
         <field name="target">new</field>
     </record>
+    <menuitem
+        id="menu_wizard_add_service"
+        name="Agregar Servicio"
+        action="view_action_wizard_add_service"
+        parent="spa.menu_generic_kanban_main"
+        sequence="10"/>
 
 </odoo>
