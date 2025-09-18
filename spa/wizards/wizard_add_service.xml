@@ -6,11 +6,9 @@
         <field name="model">wizard.add.service</field>
         <field name="arch" type="xml">
             <form string="Agregar Servicio">
-                <div>
-                </div>
                 <group>
                     <field name="exemple_field" />
-                    <field name="name_employee" />"
+                    <field name="name_employee" />
                 </group>
                 <footer>
                     <button string="Agregar Servicio" name="action_add_service" type="object" class="btn-primary"/>
