@@ -19,12 +19,13 @@
     </record>
 
     <record id="view_action_wizard_add_service" model="ir.actions.act_window">
-        <field name="name">view_action_wizard_add_service</field>
+        <field name="name">Agregar Servicio</field>
         <field name="res_model">wizard.add.service</field>
         <field name="view_mode">form</field>
         <field name="view_id" ref="view_form_wizard_add_service"/>
         <field name="target">new</field>
     </record>
+
     <menuitem
         id="menu_wizard_add_service"
         name="Agregar Servicio"
